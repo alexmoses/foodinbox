@@ -4,7 +4,7 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  height: 20vh;
+  height: 69vh;
   max-height: 100px;
   font-size: 1.25em;
 }
@@ -17,4 +17,8 @@
 
 .navigationItem a {
   color: currentColor;
+}
+
+.navbar-brand {
+  height: fit-content;
 }

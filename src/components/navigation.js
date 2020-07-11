@@ -13,7 +13,7 @@ export default () => (
    
   
           </Link>
-        <Link to="/blog/">Home</Link>
+        
       </li> 
      
     </ul>
