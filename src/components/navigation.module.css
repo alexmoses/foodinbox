@@ -2,23 +2,21 @@
   display: flex;
   justify-content: center;
   list-style: none;
-  padding: 0;
+  padding: 10;
   margin: 0;
-  height: 69vh;
-  max-height: 100px;
+  max-height: 300px;
   font-size: 1.25em;
 }
 
 .navigationItem {
   display: inline-flex;
   align-items: center;
-  margin: 0 1em;
 }
 
 .navigationItem a {
   color: currentColor;
 }
 
-.navbar-brand {
-  height: fit-content;
+.navbar-brand img{
+  object-fit: contain;
 }
