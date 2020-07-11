@@ -17,6 +17,8 @@
   color: currentColor;
 }
 
-.navbar-brand img{
+.navbar-brand img {
   object-fit: contain;
+  max-width: 60%;
+  text-align: center;
 }
