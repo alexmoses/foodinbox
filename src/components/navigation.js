@@ -9,7 +9,7 @@ export default () => (
       <li className={styles.navigationItem}>
       <Link className="navbar-brand" to="/">
             
-            <img src="./logo/foodinbox-logo.png"  className="align-center" alt="Food Inbox" />
+            <img src="/logo/foodinbox-logo.png"  className="align-center" alt="Food Inbox" />
    
   
           </Link>
