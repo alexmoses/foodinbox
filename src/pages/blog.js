@@ -17,14 +17,6 @@ class BlogIndex extends React.Component {
         <Helmet>
 
 <title>{siteTitle}</title>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172429071-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-172429071-1');
-</script>
 
 </Helmet>
           <div className={styles.hero}>Blog</div>
