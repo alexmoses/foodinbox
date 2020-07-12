@@ -35,8 +35,8 @@ module.exports = {
         // The property ID; the tracking code won't be generated without it
         trackingId: "UA-172429071-1",
         // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: true
-      }
+        head: true,
+      },
     'gatsby-transformer-remark',
     'gatsby-transformer-sharp',
     'gatsby-plugin-react-helmet',
