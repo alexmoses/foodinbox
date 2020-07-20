@@ -50,5 +50,11 @@ module.exports = {
       resolve: 'gatsby-source-contentful',
       options: contentfulConfig,
     },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+    options: {
+      siteUrl: `https://www.foodinbox.com.au`,
+    }
+  },
   ],
 }
