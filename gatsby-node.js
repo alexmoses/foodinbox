@@ -1,14 +1,6 @@
 const Promise = require('bluebird')
 const path = require('path')
-module.exports = {
-  createPages: ({ actions }) => {
-    const { createRedirect } = actions
-    createRedirect({
-      fromPath: "/blog/",
-      toPath: "/",
-    })
-  },
-}
+
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
@@ -46,5 +38,16 @@ exports.createPages = ({ graphql, actions }) => {
         })
       })
     )
+  })
+}
+
+exports.createPages = ({ actions }) => {
+  const { createRedirect } = actions
+
+  createRedirect({
+    fromPath: `/blog`,
+    toPath: `/`,
+    redirectInBrowser: true,
+    isPermanent: true,
   })
 }
