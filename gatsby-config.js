@@ -44,17 +44,18 @@ module.exports = {
     'gatsby-transformer-remark',
     'gatsby-transformer-sharp',
     'gatsby-plugin-react-helmet',
+    {
+      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+      options: {
+        siteUrl: `https://www.foodinbox.com.au`,
+      },
+    },
     'gatsby-plugin-sharp',
     'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-source-contentful',
       options: contentfulConfig,
     },
-    {
-      resolve: `gatsby-plugin-canonical-urls`,
-    options: {
-      siteUrl: `https://www.foodinbox.com.au`,
-    }
-  },
+  
   ],
 }
