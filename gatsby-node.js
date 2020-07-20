@@ -4,7 +4,7 @@ module.exports = {
   createPages: ({ actions }) => {
     const { createRedirect } = actions
     createRedirect({
-      fromPath: "/blog",
+      fromPath: "/blog/",
       toPath: "/",
     })
   },
