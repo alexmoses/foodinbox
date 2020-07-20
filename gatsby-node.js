@@ -41,13 +41,3 @@ exports.createPages = ({ graphql, actions }) => {
   })
 }
 
-exports.createPages = ({ actions }) => {
-  const { createRedirect } = actions
-
-  createRedirect({
-    fromPath: `/blog`,
-    toPath: `/`,
-    redirectInBrowser: true,
-    isPermanent: true,
-  })
-}
