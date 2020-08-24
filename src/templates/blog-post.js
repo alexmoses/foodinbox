@@ -31,7 +31,7 @@ class BlogPostTemplate extends React.Component {
               }}
             >
               {post.publishDate}
-<br>{author}
+
             </p>
             <div
               dangerouslySetInnerHTML={{
