@@ -33,14 +33,7 @@ class BlogPostTemplate extends React.Component {
               {post.publishDate}
 
             </p>
-       <p
-              style={{
-                display: 'block',
-              }}
-            >
-              {post.author}
-
-            </p>
+    
             <div
               dangerouslySetInnerHTML={{
                 __html: post.body.childMarkdownRemark.html,
@@ -65,7 +58,6 @@ export const pageQuery = graphql`
     contentfulBlogPost(slug: { eq: $slug }) {
       title
       publishDate(formatString: "MMMM Do, YYYY")
-      author { name }
       heroImage {
         fluid(maxWidth: 1180, background: "rgb:000000") {
           ...GatsbyContentfulFluid_tracedSVG
