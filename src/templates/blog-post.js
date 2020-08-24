@@ -31,6 +31,7 @@ class BlogPostTemplate extends React.Component {
               }}
             >
               {post.publishDate}
+<br>{author}
             </p>
             <div
               dangerouslySetInnerHTML={{
@@ -56,7 +57,6 @@ export const pageQuery = graphql`
     contentfulBlogPost(slug: { eq: $slug }) {
       title
       publishDate(formatString: "MMMM Do, YYYY")
-      author { person }
       heroImage {
         fluid(maxWidth: 1180, background: "rgb:000000") {
           ...GatsbyContentfulFluid_tracedSVG
