@@ -1,8 +1,11 @@
 import React from "react";
-
+import styles from './footer.css'
 const Footer = () => (
   <div className="footer">
-    <p>This is some content in sticky footer</p>
+   <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-facebook"></span></a></li>
+            <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-twitter"></span></a></li>
+            <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-youtube"></span></a></li>
+            <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-linkedin"></span></a></li>
   </div>
 );
 
