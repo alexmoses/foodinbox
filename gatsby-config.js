@@ -51,6 +51,7 @@ module.exports = {
       },
     },
     'gatsby-plugin-sharp',
+    `gatsby-plugin-fontawesome-css`,
     'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-source-contentful',
@@ -59,3 +60,4 @@ module.exports = {
   
   ],
 }
+
