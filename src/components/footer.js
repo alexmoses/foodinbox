@@ -1,5 +1,8 @@
 import React from "react";
 import styles from './footer.css'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+
 const Footer = () => (
   <div className="footer">
    <Link to="https://www.instagram.com/thefoodinbox/"><FontAwesomeIcon icon={instagram} /></Link>
