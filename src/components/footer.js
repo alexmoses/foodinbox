@@ -2,9 +2,9 @@ import React from "react";
 import styles from './footer.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faFacebook, faInstagram, faTwitter, faPinterest  } from '@fortawesome/free-solid-svg-icons'
+import { Facebook, Instagram, Twitter, Pinterest  } from '@fortawesome/free-solid-svg-icons'
 
-library.add(fab, faFacebook, faInstagram, faTwitter, faPinterest)
+library.add(fab, Facebook, Instagram, Twitter, Pinterest)
 
 
 const Footer = () => (
