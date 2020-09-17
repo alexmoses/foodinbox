@@ -10,6 +10,8 @@
   }
 
   .react-icons {
+    text-align: center;
+    padding-left: 10px;
     vertical-align: middle;
     size:2em;
   }
