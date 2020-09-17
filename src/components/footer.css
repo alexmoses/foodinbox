@@ -9,7 +9,14 @@
     width: 100%;
   }
 
-  .react-icons {
+  .footer .a {
+    text-align: center;
+    padding-left: 10px;
+    vertical-align: middle;
+    size:2em;
+  }
+
+  .footer .react-icons {
     text-align: center;
     padding-left: 10px;
     vertical-align: middle;
