@@ -2,7 +2,7 @@ import React from "react";
 import styles from './footer.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { Facebook, Instagram, Twitter, Pinterest  } from '@fortawesome/free-solid-svg-icons'
+import { Facebook, Instagram, Twitter, Pinterest  } from '@fortawesome/free-svg-icons'
 
 library.add(fab, Facebook, Instagram, Twitter, Pinterest)
 
