@@ -8,7 +8,9 @@
     left: 0;
     width: 100%;
     text-align: center;
-    padding-left: 10px;
-    vertical-align: middle;
-    size:2em;
+    vertical-align: middle;;
+}
+
+.footerIcon{
+  padding-left: 10px;
 }
