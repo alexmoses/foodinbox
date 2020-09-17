@@ -5,7 +5,6 @@ import { Helmet } from 'react-helmet'
 import Hero from '../components/hero'
 import Layout from '../components/layout'
 import ArticlePreview from '../components/article-preview'
-import Footer from '../components/footer'
 
 class RootIndex extends React.Component {
   render() {
@@ -35,7 +34,6 @@ class RootIndex extends React.Component {
             </ul>
           </div>
         </div>
-        <Footer/>
       </Layout>
       
     )
