@@ -8,3 +8,8 @@
     left: 0;
     width: 100%;
   }
+
+  .react-icons {
+    vertical-align: middle;
+    size:2em;
+  }
