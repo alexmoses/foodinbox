@@ -18,6 +18,8 @@ class RootIndex extends React.Component {
           <Helmet>
 
           <title> {siteTitle}</title>
+          <meta name="description" content="SYDNEY FOODIE COUPLE 👫🏻 checking out the best eats in Sydney, Australia. Honest 'no-frills' reviews of Sydney Restaurants. 🍔" />
+    <meta property="og:type" content="article" />
           </Helmet>
           
           {/*<Hero data={author.node} />*/}
