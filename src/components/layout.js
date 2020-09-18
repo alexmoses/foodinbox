@@ -4,6 +4,7 @@ import base from './base.css'
 import Container from './container'
 import Navigation from './navigation'
 import Footer from './footer'
+import { Helmet } from 'react-helmet'
 
 
 class Template extends React.Component {
@@ -18,6 +19,8 @@ class Template extends React.Component {
 
     return (
       <Container>
+      <Helmet><title> {siteTitle}</title>
+    <meta property="og:type" content="article" /></Helmet>
         <Navigation />
         {children}
         <Footer/>
