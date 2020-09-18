@@ -17,7 +17,6 @@ class BlogIndex extends React.Component {
         <Helmet>
 
 <title>{siteTitle}</title>
-
 </Helmet>
           <div className={styles.hero}>Blog</div>
           <div className="wrapper">
