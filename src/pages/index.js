@@ -89,7 +89,7 @@ export const pageQuery = graphql`
               resizingBehavior: PAD
               background: "rgb:000000"
             ) {
-              ...GatsbyImageSharpFixed
+              ...GatsbyContentfulFluid_withWebp
             }
           }
         }
