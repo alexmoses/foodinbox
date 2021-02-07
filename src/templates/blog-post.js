@@ -16,6 +16,11 @@ class BlogPostTemplate extends React.Component {
       <Layout location={this.props.location}>
         <div style={{ background: '#fff' }}>
           <Helmet title={`${post.title} | ${siteTitle}`} />
+          <Helmet>
+          <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
+          </Helmet>
+
           <div className={heroStyles.hero}>
             <Img
               className={heroStyles.heroImage}
