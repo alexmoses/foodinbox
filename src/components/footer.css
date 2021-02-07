@@ -2,6 +2,7 @@
 .footer{
     margin-top: 1rem;
     padding: .5rem;
+    padding-right: .6rem;
     background-color: rgb(235, 195, 64);
     position: fixed;
     bottom: 0;
@@ -12,6 +13,6 @@
 }
 
 .footerIcon{
-  padding-left: 7px;
-  padding-right: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
