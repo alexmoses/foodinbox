@@ -43,7 +43,7 @@ module.exports = {
     },
     'gatsby-transformer-remark',
     'gatsby-transformer-sharp',
-    { resolve: "gatsby-plugin-google-tagmanager",
+    resolve: "gatsby-plugin-google-tagmanager",
     options: {
       id: "GTM-WRPW7G8",
 
@@ -66,7 +66,7 @@ module.exports = {
     
       // Defaults to false
       enableWebVitalsTracking: true,
-    },},
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
