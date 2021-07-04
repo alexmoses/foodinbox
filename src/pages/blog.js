@@ -16,7 +16,7 @@ class BlogIndex extends React.Component {
         <div style={{ background: '#fff' }}>
         <Helmet>
 <title>{siteTitle}</title>
-
+<script data-ad-client="ca-pub-3918096496814316" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </Helmet>
           <div className={styles.hero}>Blog</div>
           <div className="wrapper">
