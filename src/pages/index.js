@@ -20,7 +20,7 @@ class RootIndex extends React.Component {
           <title> {siteTitle}</title>
           <meta name="description" content="SYDNEY FOODIE COUPLE 👫🏻 checking out the best eats in Sydney, Australia. Honest 'no-frills' reviews of Sydney Restaurants. 🍔" />
     <meta property="og:type" content="article" />
-<script data-ad-client="ca-pub-3918096496814316" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
           </Helmet>
           
           {/*<Hero data={author.node} />*/}
