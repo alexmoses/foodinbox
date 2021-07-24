@@ -42,7 +42,7 @@ exports.createPages = ({ graphql, actions }) => {
 
   const tags= graphql(`
     query {
-      allContentfulArticlePost {
+      allContentfulBlogPost {
         edges {
           node {
             tags
@@ -52,7 +52,7 @@ exports.createPages = ({ graphql, actions }) => {
     }
   `)
 
-  tags.data.allContentfulArticlePost.edges.forEach(edge=> {
+  tags.data.allContentfulBlogPost.edges.forEach(edge=> {
    let slugifiedTag= edges.node.tag.toLowerCase().replace("/^\s+$/g", "-");
 
     createPage({
