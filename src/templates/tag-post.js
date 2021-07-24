@@ -57,7 +57,7 @@ export default BlogPostTemplate
 
 export const pageQuery = graphql`
 query($slug: String!, $tags: [String!]) {
-  contentfulBlogPost(slug: { eq: $slug }, tags: { in: $tags}) {
+  contentfulArticlePost(slug: { eq: $slug }, tags: { in: $tags}) {
     title
     tags
     publishedDate(formatString: "Do MMMM, YYYY")
