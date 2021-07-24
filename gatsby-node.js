@@ -39,8 +39,8 @@ exports.createPages = ({ graphql, actions }) => {
       })
     )
   })
-  
-  const tags= await graphql(`
+
+  const tags= graphql(`
     query {
       allContentfulArticlePost {
         edges {
@@ -57,7 +57,7 @@ exports.createPages = ({ graphql, actions }) => {
 
     createPage({
       path: `/tag/${slugifiedTag}`,
-      component: path.resolve("./src/templates/tag-post.tsx"), // your tagComponent
+      component: path.resolve("./src/templates/tag-post.js"), // your tagComponent
       context: {
         slug: edge.node.slug,
         tagName: edges.node.tag
@@ -65,5 +65,3 @@ exports.createPages = ({ graphql, actions }) => {
     })
   })    
 }
-
-
