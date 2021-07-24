@@ -9,7 +9,7 @@ export default () => (
       <li className={styles.navigationItem}>
       <Link className="navbar-brand" to="/">
             
-            <img src="/logo/foodinbox-logo.png"  className="align-center" alt="Food Inbox" /> 
+            <img src="/logo/foodinbox-logo.png"  className="align-center" alt="Food Inbox" width="50%" height="50%" /> 
    
   
           </Link>
@@ -22,7 +22,7 @@ export default () => (
     <ul className={styles.navigation}>
     
     
-    <li className={styles.navigationItem}><Link className="navbar-brand" to="/">Home </Link></li>
+    <li className={styles.navigationItem}><Link className="navbar-brand" to="/">Home </Link></li> 
    <li className={styles.navigationItem}><Link className="navbar-brand" to="/about-us.html"> About Us</Link></li>
   </ul>
   </nav>
