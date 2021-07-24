@@ -15,8 +15,15 @@ export default () => (
           </Link>
         
       </li> 
-     <br></br>
-     <li><a href="/about-us.html">About Us</a></li>
+     
+     
     </ul>
+<br></br>
+    <ul className={styles.navigation}>
+    
+    
+   
+   <li className={styles.navigationItem}><Link className="navbar-brand" to="/about-us.html"> About Us</Link></li>
+  </ul>
   </nav>
 )
