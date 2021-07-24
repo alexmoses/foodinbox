@@ -9,13 +9,14 @@ export default () => (
       <li className={styles.navigationItem}>
       <Link className="navbar-brand" to="/">
             
-            <img src="/logo/foodinbox-logo.png"  className="align-center" alt="Food Inbox" />
+            <img src="/logo/foodinbox-logo.png"  className="align-center" alt="Food Inbox" /> 
    
   
           </Link>
         
       </li> 
-     
+     <br></br>
+     <li><a href="/about-us.html">About Us</a></li>
     </ul>
   </nav>
 )
